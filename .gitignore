@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -22,3 +23,27 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+=======
+# dependencies
+node_modules/
+
+# production
+frontend/dist/
+backend/dist/
+
+# Vite cache
+frontend/node_modules/.vite/
+
+# env files
+.env
+**/.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+>>>>>>> 41c9f0841180099f91cce7683a4f6dbb5cf91550
